@@ -105,9 +105,11 @@ li img {
   color: transparent;
   font-weight: bolder;
   font-size: 2.8rem;
+
   /* letter-spacing: 0.2rem; */
   margin: 10px;
   padding: 1rem 0 2.5rem 0;
+  background-clip: unset;
   -webkit-background-clip: text;
 }
 
@@ -334,6 +336,10 @@ footer .foot-last h3 small {
   font-size: 30px;
 }
 
+footer .foot-last h2 big {
+  display: flex;
+}
+
 .about .about-sec1 .images-about .img-about h3 big {
   display: block;
 }
@@ -405,10 +411,6 @@ footer .foot-last h2 {
   align-items: center;
   justify-content: center;
   width: 50%;
-}
-
-footer .foot-last h2 big {
-  display: flex;
 }
 
 /* @media screen and (min-width: 768px) {
