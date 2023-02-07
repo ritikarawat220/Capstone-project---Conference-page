@@ -69,7 +69,7 @@ li img {
   gap: 5px;
   background-color: var(--color-lightblack);
   display: none;
-  -webkit-animation-name: menuAnime;
+  -webkit-animation-name: menuanime;
   animation-name: menuAnime;
   -webkit-animation-duration: 0.5s;
   animation-duration: 0.5s;
@@ -138,10 +138,8 @@ li img {
   /* letter-spacing: 0.2rem; */
   margin: 10px;
   padding: 1rem 0 2.5rem 0;
-  background-clip: text;
+  background-clip: unset;
   -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -moz-background-clip: text;
 }
 
 .title {
@@ -226,11 +224,6 @@ li img {
   font-size: 30px;
 }
 
-.list img {
-  width: 50px;
-  height: 50px;
-}
-
 .list-header {
   color: var(--color-secondary);
   flex: 2;
@@ -289,6 +282,17 @@ li img {
   gap: 20px;
 }
 
+footer .foot-last h3 {
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 12px;
+  padding: 30px 10px;
+}
+
 .sec3 .speakers .guest section h3 {
   align-self: flex-start;
 }
@@ -302,17 +306,6 @@ li img {
 .sec3 .speakers .guest section .p2 {
   font-size: 13px;
   color: var(--color-lightblack);
-}
-
-footer .foot-last h3 {
-  font-weight: lighter;
-  display: flex;
-  flex-direction: column;
-  width: 40%;
-  justify-content: space-evenly;
-  align-items: center;
-  font-size: 12px;
-  padding: 30px 10px;
 }
 
 footer .foot-last h3 small {
@@ -543,7 +536,7 @@ footer .foot-last h2 {
     align-items: center;
     padding-right: 10%;
     justify-content: space-between;
-  } 
+  }
 
   .header .heads-all ul .logo-img {
     width: 40%;
@@ -567,6 +560,15 @@ footer .foot-last h2 {
 
   nav ul li a h2 {
     position: relative;
+  }
+
+  .list img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .guest img {
+    background-image: url(./important-img/image-bg-desk.png);
   }
 
   .header .heads-all ul li img {
@@ -624,7 +626,7 @@ footer .foot-last h2 {
 
   .sec1 {
     padding: 3rem;
-    background: url(./important-img/home-bg-desk\ \(1\).png);
+    background: url(./important-img/home-bg-desk.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -680,7 +682,7 @@ footer .foot-last h2 {
     background-color: rgb(255, 255, 255);
     border: 2px solid rgb(240, 242, 223);
     line-height: 1.5rem;
-    margin: 3rem 0;
+    margin: 1rem 0;
     font-weight: 500;
   }
 
@@ -785,7 +787,6 @@ footer .foot-last h2 {
 
   .join {
     background-color: var(--color-secondary);
-    display: flex;
     width: 100%;
     flex-direction: row;
     justify-content: center;
@@ -823,22 +824,18 @@ footer .foot-last h2 {
     height: 50%;
   }
 
-  .guest img {
-    background-image: url(./important-img/image-bg-desk.png);
-  }
-
-  .sec3 .speakers .guest img {
+  /* .sec3 .speakers .guest img {
     background-image: url(./important-img/image-bg-desk.png);
     background-size: contain;
     background-position: top left;
     background-repeat: no-repeat;
     max-width: 100px;
     flex: 1;
-  }
+  } */
 
   .about .about-sec1 .logo img {
-    width: 15rem;
-    height: 7rem;
+    width: 25rem;
+    height: 20rem;
   }
 
   .sec3 .speakers .guest img:hover {
@@ -883,7 +880,7 @@ footer .foot-last h2 {
   }
 
   .sub-about {
-    background: linear-gradient(rgba(245, 244, 244, 0.9882352941), rgba(254, 255, 255, 0.9)), url(./important-img/home-bg-desk\ \(1\).png);
+    background-image: url(./important-img/home-bg-desk.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -915,7 +912,7 @@ footer .foot-last h2 {
     justify-content: center;
     text-align: center;
     width: 100%;
-    margin: 5rem 0 6.5rem 0;
+    margin: 1rem 0 6.5rem 0;
   }
 
   .about .about-sec1 .mini-about {
@@ -1025,7 +1022,3 @@ footer .foot-last h2 {
     background-color: var(--color-lightblack);
   }
 }
-
-
-
-
