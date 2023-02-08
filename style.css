@@ -256,7 +256,7 @@ footer .foot-1 ul {
 
 .join {
   display: flex;
-  display: none;
+  /* display: none; */
   background-color: var(--color-secondary);
   flex-direction: row;
   justify-content: center;
@@ -271,9 +271,9 @@ footer .foot-1 ul {
 
 .join h3 {
   color: var(--color-white);
-  font-size: 20px;
+  font-size: 16px;
   word-spacing: 0.3rem;
-  padding: 8px;
+  padding: 5px;
 }
 
 .sec3 {
@@ -774,7 +774,7 @@ footer .foot-last h2 {
   }
 
   .list {
-    height: 330px;
+    height: 300px;
     padding: 6px 8px 18px 8px;
     display: flex;
     flex-direction: column;
@@ -799,7 +799,7 @@ footer .foot-last h2 {
 
   .list-header {
     color: var(--color-secondary);
-    flex: 4;
+    flex: 2;
   }
 
   .list-para {
@@ -810,6 +810,7 @@ footer .foot-last h2 {
 
   .join {
     background-color: var(--color-secondary);
+    display: none;
     width: 100%;
     flex-direction: row;
     justify-content: center;
