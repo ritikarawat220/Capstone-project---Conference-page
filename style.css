@@ -256,6 +256,7 @@ footer .foot-1 ul {
 
 .join {
   display: flex;
+
   /* display: none; */
   background-color: var(--color-secondary);
   flex-direction: row;
