@@ -670,10 +670,10 @@ footer .foot-last h2 {
   }
 
   .main-title {
-    width: 80%;
+    width: 700px;
     position: relative;
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 60px;
     margin: 8px;
     mix-blend-mode: multiply;
     text-transform: uppercase;
@@ -706,7 +706,7 @@ footer .foot-last h2 {
 
   .para1 {
     color: var(--color-secondary);
-    font-size: 2.4rem;
+    font-size: 40px;
   }
 
   .title {
@@ -714,17 +714,27 @@ footer .foot-last h2 {
   }
 
   .para2 {
-    color: var(--color-lightblack);
-    background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(240, 242, 223);
-    line-height: 1.5rem;
-    font-weight: 500;
-    margin: 3rem 100px;
+    text-align: center;
+    width: 80%;
+    padding: 40px 20px;
+    background-color: #fff;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+    color: #595959;
+    border: 1px solid #d3d3d3;
+    border-radius: 6px;
   }
 
-  /* b {
+  .about .about-sec1 .mail {
+    color: #595959;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+  }
+
+  b {
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-  } */
+  }
 
   .year {
     color: var(--color-lightblack);
@@ -923,11 +933,12 @@ footer .foot-last h2 {
   }
 
   .sub-about {
-    background-image: url(./important-img/home-bg-desk.png);
+    background-image: url(./important-img/aboutdesktop-bg.png);
+    background-position: 0 0;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
     display: flex;
+    padding: 35px 12% 130px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
