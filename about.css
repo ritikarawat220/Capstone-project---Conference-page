@@ -463,7 +463,7 @@ footer .foot-1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: var(--color-lightblack);
+  background-color: var(--color-lightblack);
   color: rgb(148, 145, 145);
   padding: 24px 0;
 }
@@ -500,8 +500,9 @@ footer .foot-last h2 span {
   justify-content: center;
   text-align: center;
   align-self: center;
-  font-size: 25px;
+  font-size: 18px;
   padding-bottom: 1px;
+  margin-left: 20px;
 }
 
 footer .foot-last h2 {
@@ -1037,8 +1038,8 @@ footer .foot-last h2 {
   }
 
   footer .foot-last {
-    background-color: var(--color-lightblack);
-    color: var(--color-white);
+    background-color: var(--color-white);
+    color: var(--color-lightblack);
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -1049,7 +1050,7 @@ footer .foot-last h2 {
   footer .foot-last h2 span {
     width: 60px;
     height: 50px;
-    border: 3px solid var(--color-white);
+    border: 3px solid var(--color-black);
     border-radius: 90px;
     display: flex;
     align-items: center;

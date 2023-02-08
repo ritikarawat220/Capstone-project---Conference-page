@@ -307,10 +307,11 @@ footer .foot-last h3 {
   display: flex;
   flex-direction: column;
   width: 40%;
-  justify-content: space-evenly;
+  margin-left: 20px;
+  justify-content: center;
   align-items: center;
-  font-size: 12px;
-  padding: 30px 10px;
+  font-size: 14px;
+  padding: 30px 0;
 }
 
 .sec3 .speakers .guest section h3 {
@@ -478,24 +479,27 @@ footer .foot-last {
 }
 
 footer .foot-last h2 span {
-  width: 69px;
-  height: 59px;
+  width: 60px;
+  height: 49px;
   border: 3px solid black;
   border-radius: 90px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   text-align: center;
   align-self: center;
-  font-size: 25px;
+  font-size: 18px;
   padding-bottom: 1px;
+  margin-left: 20px;
 }
 
 footer .foot-last h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50%;
+  width: 60%;
+  font-size: 25px;
+  padding: 30px 0;
 }
 
 @media screen and (min-width: 768px) {
