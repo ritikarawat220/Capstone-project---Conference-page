@@ -173,9 +173,9 @@ footer .foot-1 ul {
   color: var(--color-lightblack);
   background-color: rgb(242, 242, 242);
   display: flex;
-  border: 5px solid #fff;
+  border: 3px solid #fff;
   align-items: center;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.6rem;
   margin-top: 25px;
   padding: 1rem;
@@ -725,6 +725,17 @@ footer .foot-last h2 {
     border-radius: 6px;
   }
 
+  .para3 {
+    width: 500px;
+    font-size: 16px;
+    color: #595959;
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    margin-top: 15px;
+  }
+
   .about .about-sec1 .mail {
     color: #595959;
     font-weight: 600;
@@ -782,7 +793,7 @@ footer .foot-last h2 {
     width: 2rem;
     height: 1px;
     align-self: center;
-    margin-top: 10px;
+    margin-top: 5px;
     border: 1px solid var(--color-secondaryDeep);
   }
 
@@ -936,6 +947,7 @@ footer .foot-last h2 {
     background-image: url(./important-img/aboutdesktop-bg.png);
     background-position: 0 0;
     background-repeat: no-repeat;
+    box-sizing: border-box;
     background-size: contain;
     display: flex;
     padding: 35px 12% 130px;
@@ -956,7 +968,7 @@ footer .foot-last h2 {
   .about .about-sec1 .about-title {
     color: var(--color-lightblack);
     font-size: 50px;
-    padding: 7rem 0 3rem 0;
+    padding: 8rem 0 3rem 0;
   }
 
   .about .about-sec1 .logo {
@@ -1034,9 +1046,9 @@ footer .foot-last h2 {
   }
 
   footer .foot-1 {
+    display: none;
     padding: 24px 15%;
     width: 100%;
-    display: flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--color-lightblack);
@@ -1049,8 +1061,8 @@ footer .foot-last h2 {
   }
 
   footer .foot-last {
-    background-color: var(--color-white);
-    color: var(--color-lightblack);
+    background-color: #272a31;
+    color: var(--color-white);
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -1061,7 +1073,7 @@ footer .foot-last h2 {
   footer .foot-last h2 span {
     width: 60px;
     height: 50px;
-    border: 3px solid var(--color-black);
+    border: 3px solid var(--color-white);
     border-radius: 90px;
     display: flex;
     align-items: center;
