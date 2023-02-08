@@ -202,9 +202,19 @@ li img {
   align-self: center;
 }
 
+.guest img {
+  background-image: url(./important-img/image-bg.png);
+}
+
 .sec3 .speakers .guest img {
-  width: 7rem;
-  height: 9rem;
+  position: relative;
+  background-size: 120px 100px;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  padding-left: 5%;
+  padding-top: 5%;
 }
 
 .line {
@@ -582,6 +592,8 @@ footer .foot-last h2 {
     height: 50px;
   }
 
+
+
   .guest img {
     background-image: url(./important-img/image-bg-desk.png);
   }
@@ -660,13 +672,13 @@ footer .foot-last h2 {
     overflow: hidden;
   }
 
-  /* .main-title::before {
+  .main-title::before {
     position: absolute;
     top: 0;
     left: 0;
     width: 0;
     height: 100%;
-  } */
+  }
 
   @keyframes animate {
     0%,
@@ -834,19 +846,18 @@ footer .foot-last h2 {
     height: 100%;
   }
 
-  .sec3 .speakers .guest img {
-    width: 50%;
-    height: 50%;
-  }
 
-  /* .sec3 .speakers .guest img {
-    background-image: url(./important-img/image-bg-desk.png);
-    background-size: contain;
-    background-position: top left;
+
+  .sec3 .speakers .guest img {
+    position: relative;
+    background-size: 120px 100px;
     background-repeat: no-repeat;
-    max-width: 100px;
-    flex: 1;
-  } */
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    padding-left: 6%;
+    padding-top: 6%;
+  }
 
   .about .about-sec1 .logo img {
     width: 25rem;
