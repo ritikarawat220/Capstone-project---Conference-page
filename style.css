@@ -204,7 +204,6 @@ footer .foot-1 ul {
 }
 
 .sec3 .speakers .guest img {
-  position: relative;
   background-size: 120px 100px;
   background-repeat: no-repeat;
   width: 150px;
@@ -257,6 +256,7 @@ footer .foot-1 ul {
 
 .join {
   display: flex;
+  display: none;
   background-color: var(--color-secondary);
   flex-direction: row;
   justify-content: center;
@@ -740,12 +740,11 @@ footer .foot-last h2 {
 
   .sec2 .parr a {
     color: var(--color-white);
-    font-size: 15px;
-    align-items: center;
+    font-size: 20px;
     word-spacing: 0.2rem;
+    align-self: center;
+    margin-left: 169px;
     border-bottom: 1px solid var(--color-white);
-    margin-left: 200px;
-    display: block;
   }
 
   .sec-2-title {
@@ -814,7 +813,6 @@ footer .foot-last h2 {
     text-align: center;
     align-items: center;
     margin-top: 1.6rem;
-    display: none;
   }
 
   .sec3 {

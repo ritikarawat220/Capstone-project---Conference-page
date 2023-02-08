@@ -207,7 +207,6 @@ li img {
 }
 
 .sec3 .speakers .guest img {
-  position: relative;
   background-size: 120px 100px;
   background-repeat: no-repeat;
   width: 150px;
@@ -260,6 +259,7 @@ li img {
 
 .join {
   display: flex;
+  display: none;
   background-color: var(--color-secondary);
   flex-direction: row;
   justify-content: center;
@@ -819,7 +819,6 @@ footer .foot-last h2 {
     text-align: center;
     align-items: center;
     margin-top: 1.6rem;
-    display: none;
   }
 
   .sec3 {
