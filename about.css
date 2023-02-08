@@ -25,7 +25,7 @@ a {
 }
 
 li img {
-  width: 30%;
+  width: 15%;
   height: 30%;
 }
 
@@ -198,7 +198,7 @@ li img {
 }
 
 .sec-2-title {
-  font-size: 40px;
+  font-size: 30px;
   align-self: center;
 }
 
@@ -237,8 +237,8 @@ li img {
   flex-direction: row;
   width: 100%;
   align-items: center;
-  padding: 18px 8px 18px 15px;
-  gap: 15px;
+  padding: 18px 8px 18px 14px;
+  gap: 12px;
   background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -248,7 +248,7 @@ li img {
 
 .list-header {
   color: var(--color-secondary);
-  flex: 2;
+  flex: 4;
 }
 
 .list-para {
@@ -801,7 +801,7 @@ footer .foot-last h2 {
 
   .list-header {
     color: var(--color-secondary);
-    flex: 2;
+    flex: 4;
   }
 
   .list-para {

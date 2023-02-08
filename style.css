@@ -25,7 +25,7 @@ a {
 }
 
 li img {
-  width: 30%;
+  width: 13%;
   height: 30%;
 }
 
@@ -195,7 +195,7 @@ footer .foot-1 ul {
 }
 
 .sec-2-title {
-  font-size: 40px;
+  font-size: 30px;
   align-self: center;
 }
 
@@ -235,23 +235,23 @@ footer .foot-1 ul {
   width: 100%;
   align-items: center;
   padding: 18px 8px 18px 15px;
-  gap: 15px;
+  gap: 7px;
   background-color: rgba(255, 255, 255, 0.1);
 }
 
 .list i {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .list-header {
   color: var(--color-secondary);
-  flex: 2;
+  flex: 3;
 }
 
 .list-para {
   width: 100%;
-  flex: 5;
-  line-height: 1.6rem;
+  flex: 4;
+  line-height: 1.5rem;
 }
 
 .join {
@@ -795,7 +795,7 @@ footer .foot-last h2 {
 
   .list-header {
     color: var(--color-secondary);
-    flex: 2;
+    flex: 4;
   }
 
   .list-para {
