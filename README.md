@@ -32,7 +32,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Collision Conference page]()
+[Collision Conference page](https://ritikarawat220.github.io/Capstone-project---Conference-page/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,6 +99,8 @@ Clone this repository to your desired folder:
 
 - Implement some UX improvements: add the "More" button on the home page, include transitions and/or animation
 
+- Implement additional pages, like the tickets page and the schedule page. Make sure that you have a decent mobile design for them
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -123,8 +125,11 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- You can do it
-- You need patience and smart friend who can help you.
+[Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) for the Amazing Design Template.
+
+[Fontawsome](https://fontawesome.com/) Special thanks to fontawsome for the icons assets.
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
