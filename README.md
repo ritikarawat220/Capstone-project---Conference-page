@@ -34,8 +34,6 @@
 
 [Live Demo](https://ritikarawat220.github.io/Capstone-project---Conference-page/)
 
-## 🎥 WALKTHROUGH 
-[loom](https://www.loom.com/share/3364ad86276a49efa6ce83ce187c1001)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
