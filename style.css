@@ -292,9 +292,16 @@ footer .foot-1 ul {
 }
 
 .sec3 .speakers .guest {
-  display: flex;
+  display: none;
+
+  /* display: flex; */
   -moz-column-gap: 16px;
   column-gap: 16px;
+}
+
+.sec3 .speakers .guest:nth-child(1),
+.sec3 .speakers .guest:nth-child(2) {
+  display: inline-block;
 }
 
 .sec3 .speakers .guest section {
@@ -328,6 +335,28 @@ footer .foot-last h3 {
 .sec3 .speakers .guest section .p2 {
   font-size: 13px;
   color: var(--color-lightblack);
+}
+
+#load-more {
+  margin-top: 20px;
+  display: flex;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 11px 120px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #334;
+  font-size: 16px;
+  color: #334;
+  cursor: pointer;
+}
+
+#load-more:hover {
+  background-color: crimson;
+  border-color: crimson;
+  color: #fff;
+  transform: translate(1px, -1px);
+  box-shadow: 0 3px 10px var(--color-black);
 }
 
 footer .foot-last h3 small {
@@ -891,6 +920,15 @@ footer .foot-last h2 {
     flex-direction: column;
     gap: 14px;
     height: 100%;
+  }
+
+  #load-more {
+    display: none;
+  }
+
+  .sec3 .speakers .guest:nth-child(1),
+  .sec3 .speakers .guest:nth-child(2) {
+    display: flex;
   }
 
   footer .last-abt h3 {

@@ -91,3 +91,18 @@ function guestSpeakers() {
 }
 
 guestSpeakers();
+
+const loadMoreBtn = document.querySelector('#load-more');
+let currentItem = 2;
+
+loadMoreBtn.onclick = () => {
+  const boxes = [...document.querySelectorAll('.sec3 .speakers .guest')];
+  for (let i = currentItem; i < currentItem + 2; i += 1) {
+    boxes[i].style.display = 'inline-block';
+  }
+  currentItem += 2;
+
+  if (currentItem >= boxes.length) {
+    loadMoreBtn.style.display = 'none';
+  }
+};
